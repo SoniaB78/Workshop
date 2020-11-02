@@ -1,0 +1,43 @@
+body{
+    margin: 15%;
+    padding: 5%;
+
+}
+
+img{
+    width: 25%;
+    margin-left: -1%;
+    margin-top: -1%;
+    text-align: right;
+    font-size: large;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+    background-color: rgb(10, 175, 10);
+    margin-left: -1%;
+}
+
+td{
+    border: 1px solid black;
+}
+h1{
+    height: 10px;
+    color: green;
+    margin-left: 100px;
+}
+
+p{
+    margin-left: 100px;
+    line-height: 150%;
+}
+
+
+h2{
+    border-bottom: black;
+    color: green;
+    margin-left: 100px;
+}

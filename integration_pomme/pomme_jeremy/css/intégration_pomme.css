@@ -1,0 +1,23 @@
+nav{
+    background-color: green;
+    color: white;
+}
+    
+
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    border: 4px; 
+    width: 90%;
+    margin: 25px;
+}
+
+td{
+    border: 1px;
+    text-align: justify;
+    padding: 5px;
+}

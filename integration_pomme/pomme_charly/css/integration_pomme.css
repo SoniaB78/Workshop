@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(221, 238, 170);
+    margin: 0 auto;
+    width: 34%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(153, 187, 34);
+}
+
+header, section{
+    background-color: white;
+}
+
+header{
+    margin: 0 auto;
+    height: 215px;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(170, 187, 68);
+}
+
+nav a{
+    /* flex-direction: row; */
+    float: left;
+    background-image: url(../img/bg_menu.gif);
+    width: 16.27%;
+    border-right: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-right: 0.1em;
+    text-decoration: none;
+}
+
+nav p{
+    /* flex-direction: row; */
+    float: left;
+    background-image: url(../img/bg_menu.gif);
+    width: 16.27%;
+    border-right: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-right: 0.1em;
+}
+
+a:hover{
+    color: rgb(15, 73, 0);
+}
+
+.invisible{
+    color: rgb(123, 218, 0);
+    border-right: 0;
+}
+
+section{
+    height: 910px;
+}
+
+.vertical{
+    float: left;
+    padding: 1em;
+    height: 840px;
+    background-color: white;
+    padding-top: 2em;
+}
+
+.petit{
+    width: 18px;
+    padding-right: 0.1em;
+}
+
+.logo1{
+    width: 250px;
+}
+
+.logo2{
+    width: 350px;
+    float: right;
+    padding: 0.5em;
+}
+
+h3{
+    color: rgb(153, 187, 34);
+    border-bottom: 1px solid rgb(153, 187, 34);
+    width: 625px;
+}
+
+section p{
+    font-size: 12px;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 2em;
+}
+
+.alinea{
+    text-indent: 20px;
+}
+
+.soustitre{
+    text-indent: 10px;
+}
+
+.bas{
+    padding-bottom: 15px;
+}
+

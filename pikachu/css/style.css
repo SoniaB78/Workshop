@@ -1,0 +1,148 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+.contenair {
+    max-width: 800px;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+
+.banner {
+    background-color: rgb(255, 238, 225);
+    padding: 2rem 2.5rem;
+}
+
+.banner img {
+    width: 256px;
+    line-height: 83px;/*/!\*/
+    vertical-align: middle;
+}
+
+.banner h1 {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding-left: 10rem;
+    transition-duration: 1s;
+}
+
+.banner h1:hover{
+    font-size: 1.8rem;
+}
+
+nav, footer{
+    background-color: #244CE3;
+    text-align: center;
+    padding: 1rem 0;
+    /* on indique ici le temps que prendra l'animation à atteindre le style demandé (on l'indique toujours dans la balise sans le hover)*/
+    transition-duration: 1s; /* durée du changement */
+    transition-delay: 0.5s; /* temps avant le début du changement */
+}
+nav:hover, footer:hover{
+    background-color: #fa592c;
+}
+
+nav a {
+    color: rgb(255, 238, 225);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 4rem;
+    /* on indique ici le temps que prendra l'animation à atteindre le style demandé (on l'indique toujours dans la balise sans le hover)*/
+    transition-duration: 1.5s; 
+}
+
+nav a:hover{ /* hover signifie au survol de la souris*/
+    color: #244CE3; /* change la couleur au survol, il est possible de changer plus de choses que celà */
+}
+
+.content {
+    padding: 0 2rem 1rem;
+}
+
+main, aside{
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #eee;
+}
+
+main {
+    width: 50%;
+    margin-right: 4%;
+}
+
+h2, h3{
+    color: #fa592c;
+  
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.1;
+    font-weight: 501;
+}
+
+p, li{
+    color: rgb(49, 49, 49);
+}
+
+ul li{
+    list-style-type: square;
+}
+
+aside {
+    width: 36%;
+    vertical-align: top;
+}
+
+aside img{
+    max-height: 210px;
+    display: block;
+    margin: auto;
+
+}
+
+section.mysection, section.preformate{
+    margin: auto;
+    margin: 2rem 2rem 1rem;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #eee;
+}
+section.preformate p{
+    margin: 1em 4em;
+}
+
+iframe{
+    margin: 2rem 11%; 
+}
+
+footer p, footer #reseaux {
+    display: inline-block;
+}
+
+footer p {
+    padding-right: 15rem;
+    color: rgb(255, 238, 225);
+}
+
+footer #reseaux {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+#reseaux a{
+    text-decoration: none;
+}
+
+#reseaux i{
+    color: white;
+}
